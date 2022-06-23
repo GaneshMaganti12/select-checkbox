@@ -33,37 +33,37 @@ function App() {
     {
         id: "ASIA",
         names: ["Thailand", "Singapore", "Japan", "India", "China"],
-        isActive: false
+        isActive: true
     },
     {
         id: "EUROPE",
         names: ["Germany", "France", "Spain", "Italy", "England"],
-        isActive: false
+        isActive: true
     },
     {
         id: "AFRICA",
         names: ["South Africa", "Kenya", "Egypt", "Uganda", "Nigeria"],
-        isActive: false
+        isActive: true
     },
     {
         id: "NORTH AMERICA",
         names: ["Canada", "United States", "Mexico", "Cuba", "Panama"],
-        isActive: false
+        isActive: true
     },
     {
         id: "SOUTH AMERICA",
         names: ["Brazil", "Chile", "Colombia", "Peru", "Argentina"],
-        isActive: false
+        isActive: true
     },
     {
         id: "AUSTRALIA",
         names: ["New Zealand", "New Caledonia", "Fiji", "Samoa"],
-        isActive: false
+        isActive: true
     },
     {
         id: "ANTARTICA",
         names: [],
-        isActive: false
+        isActive: true
     }
 
   ])
@@ -78,7 +78,7 @@ function App() {
 
     const filteredCountries = countryList.map((each) =>{
         if(each.id === continentId){
-            return {...each, isActive: !isSelect}
+            return {...each, isActive: isSelect}
         }
         return each
     })
