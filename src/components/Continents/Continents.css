@@ -1,0 +1,15 @@
+.check-box{
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+.input{
+    margin-right: 10px;
+    height: 15px;
+    width: 15px;
+}
+.label{
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}

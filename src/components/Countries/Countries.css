@@ -1,0 +1,15 @@
+.country-check{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    width: 150px;
+    height: 25px;
+    background-color: darkblue;
+    padding-left: 5px;
+}
+.label-country{
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+}
